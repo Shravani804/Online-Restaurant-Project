@@ -1,0 +1,65 @@
+#navbar{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+  }
+
+h1{
+    color: red;
+}
+
+.beige{
+    background-color: beige;
+}
+
+.red{
+    background-color: rgb(246, 96, 96);
+}
+#cards{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    justify-content: center;
+}
+
+#FAQ{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: bisque;
+}
+
+/*-------responsiveness-------*/
+@media (max-width: 600px) {
+    #cards {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 30px;
+    }
+
+    #aboutus img {
+        width: 300px;
+        height: 200px;
+        margin-top: 20px ;
+        margin-bottom: 20px;
+    }
+
+    #two p {
+        margin-right: 50px;
+        
+    }
+    #two h2 {
+        margin-right: 50px;
+    }
+
+    #main img .d-block {
+        width: 100%;
+        margin-left: 50px;
+    }
+}
